@@ -1,4 +1,4 @@
-package soma_area;
+package soma_area_com_generics;
 
 public class Circunferencia implements Superficie {
 

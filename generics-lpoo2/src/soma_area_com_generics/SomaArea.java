@@ -1,15 +1,12 @@
-package soma_area;
+package soma_area_com_generics;
 
-public class SomaArea {
-    public double calculaArea(Superficie[] arr) {
-        double area = 0.0;
-        for (Superficie s : arr) {
-            if (s instanceof Quadrado) {
-                area += ((Quadrado) s).area();
-            } else if (s instanceof Circunferencia) {
-                area += ((Circunferencia) s).area();
-            }
+
+public class SomaArea <T>{
+    public <T extends Superficie> double calculaArea(T[] arr){
+        double soma = 0;
+        for (T t : arr) {
+            soma += t.area();
         }
-        return area;
+        return soma;
     }
 }

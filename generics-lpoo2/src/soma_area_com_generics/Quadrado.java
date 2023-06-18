@@ -1,4 +1,4 @@
-package soma_area;
+package soma_area_com_generics;
 
 public class Quadrado implements Superficie {
 

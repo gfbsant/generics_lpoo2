@@ -1,4 +1,4 @@
-package soma_area;
+package soma_area_com_generics;
 
 public class UsaSomaArea {
     public static void main(String[] args) {
